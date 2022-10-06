@@ -10,6 +10,7 @@ quilos = float(input("Insira o valor em kg: "))
 if (quilos > 50):
     excedeu = (quilos - 50)
     multa = (excedeu * 4.00)
+    print("\nVocê excedeu {} quilos acima do permitido".format(excedeu))
     print("Valor a pagar: R${:.2f}".format(multa))
 else:
-    print("Você não excedeu o peso.")
+    print("\nVocê não excedeu o peso.")
